@@ -1,0 +1,70 @@
+Some useful git aliases:
+
+    # Status
+    st = status
+
+    # Add all changes
+    addall = add -A
+
+    # Commit with message
+    cm = commit -m
+
+    # Commit all changes with message
+    cam = commit -a -m
+
+    # Push to remote
+    ps = push
+
+    # Pull from remote
+    pl = pull
+
+    # Checkout branch
+    co = checkout
+
+    # Checkout new branch
+    cob = checkout -b
+
+    # Branch list
+    br = branch
+
+    # Rename branch
+    rn = branch -m
+
+    # Short log
+    lg = log --oneline --graph --decorate --all
+
+    # Last 5 commits
+    last5 = log --oneline -n 5
+
+    # Show changes
+    df = diff
+
+    # Show file changes
+    ds = diff --staged
+
+    # Merge
+    mg = merge
+
+    # Fetch
+    ft = fetch
+
+    # Rebase
+    rb = rebase
+
+    # Remove file
+    rmf = rm -f
+
+    # Reset
+    rst = reset
+
+    # Stash
+    ss = stash
+
+    # Stash apply
+    ssa = stash apply
+
+    # List stashes
+    ssl = stash list
+
+    # Pop stash
+    ssp = stash pop
